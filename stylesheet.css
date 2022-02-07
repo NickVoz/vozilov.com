@@ -1,0 +1,48 @@
+html {
+    padding-top: 15px;
+    /*background-color: #151515;*/
+    font-family: sans-serif;
+}
+main {
+    margin: auto;
+    background: #3C415C;
+    color: #f0ece2;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    border: 1px solid #f0ece2;
+}
+h1,h2,h3,h4 {
+    color: #f0ece2;
+    text-align: center;
+}
+#about li {
+    padding: 0.5em;
+}
+a, a:hover {
+    font-family: serif;
+}
+a {
+    color: #b4a5a5;
+    text-decoration: none;
+}
+a:hover {
+    color: #fcdab7;
+}
+img {
+    display: block;
+    margin: auto;
+}
+body {
+    background: linear-gradient(#301B3F, #151515) fixed ;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    font-size: large;
+    padding-top: 20px;
+    text-align: center;
+    word-spacing: 30px;
+}
