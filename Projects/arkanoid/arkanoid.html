@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nick's Website</title>
+    <link rel="shortcut icon" href="../../icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="../../stylesheet.css" />
+    <meta charset="utf-8"/>
+
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 49.999999%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+<body>
+    <header>
+        <h1 id="left">Nick's Website</h1>
+    </header>
+    <main>
+        <h2>Arkanoid Game</h2>
+        Implementation of the classic <a href ="https://en.wikipedia.org/wiki/Arkanoid">Arkanoid</a> game written in Java. 
+        <br>The game utilises various OOP design patterns, such as Observer, Decorator and more.</br>
+        <a href="https://github.com/NickVoz/arkanoid">Link and Documentation</a>
+        <h4>Screenshots</h4>
+        
+        <div class="row">
+            <div class="column">
+                <div class="resposnive">
+                    <div class="gallery">
+                        <a target="_blank" href="Level1.png">
+                            <img src="Level1.png" alt="Level 1" style="width:100%">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="resposnive">
+                    <div class="gallery">
+                        <a target="_blank" href="Level2.png">
+                            <img src="Level2.png" alt="Level 2" style="width:100%">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="resposnive">
+                    <div class="gallery">
+                        <a target="_blank" href="Level3.png">
+                            <img src="Level3.png" alt="Level 3" style="width:100%">
+                        </a>                    
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="resposnive">
+                    <div class="gallery"> 
+                        <a target="_blank" href="Level1.png">               
+                            <img src="Level4.png" alt="Level 4" style="width:100%">
+                        </a>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+    <footer>
+        <a href="https://vozilov.com/">Homepage</a> <a href="mailto:nick@vozilov.com" style="text-align: center;">Contact</a> <a href="https://github.com/NickVoz">GitHub</a>
+    </footer>
+</body>
+</html>

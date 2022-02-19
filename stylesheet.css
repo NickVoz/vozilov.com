@@ -7,6 +7,7 @@ main {
     margin: auto;
     background: #3C415C;
     color: #f0ece2;
+    line-height: 30px;
     border-radius: 15px;
     padding-left: 30px;
     padding-right: 30px;
@@ -24,11 +25,11 @@ a, a:hover {
     font-family: serif;
 }
 a {
-    color: #b4a5a5;
+    color: #fcdab7;
     text-decoration: none;
 }
 a:hover {
-    color: #fcdab7;
+    color: #b4a5a5;
 }
 img {
     display: block;
@@ -45,4 +46,31 @@ footer {
     padding-top: 20px;
     text-align: center;
     word-spacing: 30px;
+}
+
+/* Gallery Settings */
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 49.999999%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
